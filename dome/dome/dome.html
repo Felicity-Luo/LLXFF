@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="fields">
+		    <form action="modal/form.php" method="post" class="contact_form" id="contact_form" autocomplete="off">
+		        <div class="returnmessage"
+		            data-success="您的信息已经收到，我将很快与您联系。">
+		        </div>
+		            <ul>
+		                <li>
+		                    <input id="name" type="text" placeholder="Name">
+		                </li>
+		                <li>
+		                    <input id="email" type="text" placeholder="Email">
+		                </li>
+		            </ul>
+		        </div>
+		        <div class="last">
+		            <textarea id="message" placeholder="Message"></textarea>
+		        </div>
+		        <div class="tokyo_tm_button" data-position="left">
+		            <a id="send_message" href="#">
+		                <span>提交</span>
+		            </a>
+		        </div>
+		        <!-- If you want to change mail address to yours, please open modal.php and go to line 4 -->
+		    </form>
+		</div>
+	</body>
+</html>
